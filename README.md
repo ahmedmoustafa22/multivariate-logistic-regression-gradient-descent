@@ -16,4 +16,4 @@ The code is written in Python and uses the following libraries:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/multivariate-logistic-regression-gradient-descent.git
+   git clone https://github.com/ahmedmoustafa22/multivariate-logistic-regression-gradient-descent.git
