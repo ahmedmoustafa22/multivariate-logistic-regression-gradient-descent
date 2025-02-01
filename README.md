@@ -1,16 +1,18 @@
 # Gradient Descent for Multivariate Logistic Regression
 
 ## Overview
-This project implements gradient descent for multivariate logistic regression using polynomial regression (degree `d`) on the California Housing Dataset. The goal is to predict housing prices by optimizing logistic regression with polynomial feature transformation.
+This project implements logistic regression to classify whether a house in California is above or below the median house value based on features such as location, number of rooms, and population.
 
 ## Dataset
-The California Housing Dataset is used, which contains features such as median income, housing median age, and location coordinates.
+The dataset used is the **California Housing Prices** dataset from Kaggle. It contains information about housing in California, including median house value, location, and other features.
 
-## Features
-- Polynomial feature transformation (degree `d`).
-- Gradient descent optimization for logistic regression.
-- Evaluation metrics: Accuracy
-
+## Code
+The code is written in Python and uses the following libraries:
+- `numpy` for numerical computations.
+- `pandas` for data manipulation.
+- `scikit-learn` for preprocessing and polynomial features.
+- `kagglehub` to download the dataset.
+  
 ## Installation
 1. Clone the repository:
    ```bash
