@@ -32,11 +32,9 @@ The code is written in Python and uses the following libraries:
 
 ### **How to Use Locally**
 1. **API**:
-   - After running `python app.py`, you can send requests to `http://127.0.0.1:5000/predict` (Flask) or `http://127.0.0.1:8000/predict` (FastAPI).
-   - Example using `curl`:
-     ```bash
-     curl -X POST -H "Content-Type: application/json" -d '{"features": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}' http://127.0.0.1:5000/predict
-     ```
+   - After running `python app.py`, you can send requests to `http://127.0.0.1:5000/predict` (Flask) 
+ 
+    
 
 2. **Dashboard**:
    - After running `streamlit run dashboard.py`, open `http://localhost:8501` in your browser.
