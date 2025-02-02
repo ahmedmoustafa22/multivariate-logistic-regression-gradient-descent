@@ -1,4 +1,18 @@
-numpy
-pandas
-scikit-learn
-kagglehub
+# Core Libraries
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.0
+
+# Visualization
+matplotlib==3.6.2
+
+# API Deployment
+Flask==2.2.2
+FastAPI==0.89.1
+uvicorn==0.20.0
+
+# Dashboard
+streamlit==1.17.0
+
+# Model Serialization
+joblib==1.2.0
